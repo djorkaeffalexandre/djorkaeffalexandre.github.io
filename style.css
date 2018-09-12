@@ -284,3 +284,12 @@ p {
 	padding-left: 0;
 	list-style: none;
 }
+
+.language {
+	align-items: center;
+	margin-top: 20;
+}
+
+.align {
+	vertical-align: -5;
+}
