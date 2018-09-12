@@ -280,37 +280,6 @@ p {
 	}
 }
 
-@media print {
-	@page {
-		size:A4;
-	}
-	body{
-		font-size:12pt;
-	}
-	img.avatar{
-		filter:grayscale(1);
-		-webkit-filter:greyscale(1);
-	}
-	.main-wrapper .time{
-		float:right;
-		color:#000!important;
-		-webkit-print-color-adjust:exact;
-	}
-	.sidebar-wrapper{
-		position:static;
-		float:right;
-		width:40%;
-		-webkit-print-color-adjust:exact;
-	}
-	.remove-container.container-block{
-		display:none;
-	}
-	.skillset .level-bar-inner{
-		background-color:#000!important;
-		-webkit-print-color-adjust:exact;
-	}
-}
-
 .list-unstyled {
 	padding-left: 0;
 	list-style: none;
